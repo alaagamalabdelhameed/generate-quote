@@ -34,6 +34,6 @@ btn.addEventListener("click", getQuote);
 
 btnTwitter = document.querySelector("#twitter")
 btnTwitter.addEventListener('click', () => {
-    let tweetUrl = `https://twitter.com/compose/tweet?url=${quote} by ${author}`;
+    let tweetUrl = `https://twitter.com/intent/tweet?text=${quote} by ${author}`;
     window.open(tweetUrl, "_blank");
 });
