@@ -104,3 +104,8 @@ button:active {
         font-size: 2.5rem;
     }
 }
+
+#twitter {
+    color: #38a1f3;
+    background-color: white;
+    }
